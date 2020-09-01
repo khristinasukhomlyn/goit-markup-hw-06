@@ -687,6 +687,13 @@ li {
   fill: var(--accent-color);
 }
 
+.icon-close-hover:hover .icon-close {
+  fill: var(--light-color);
+}
+.icon-close-hover:hover {
+  background-color: var(--accent-color);
+}
+
 .inline-block {
   display: inline-block;
 }
