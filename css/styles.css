@@ -628,16 +628,9 @@ li {
 .field {
   display: flex;
   align-items: center;
-  /* outline: 1px solid black; */
 }
 
 .checkbox {
-  /* -webkit-appearance: none;
-  -moz-appearance: none;
-  appearance: none;
-
-  position: absolute; */
-
   position: absolute;
   width: 1px;
   height: 1px;
@@ -653,11 +646,9 @@ li {
   width: 15px;
   height: 15px;
   margin-right: 5px;
-
   border: 2px solid #2a2a2a;
   border-radius: 4px;
-
-  transition: transform 250ms linear;
+  transition: transform 250ms;
 }
 
 .checkbox:checked + .icon {
@@ -667,10 +658,6 @@ li {
   background-image: url("../imagespage1/icon\ check.svg");
   background-size: contain;
   background-origin: border-box;
-}
-
-.label {
-  transition: transform 250ms linear;
 }
 
 .checkbox:checked ~ .label {
