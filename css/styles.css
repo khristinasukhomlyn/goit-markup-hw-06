@@ -675,6 +675,8 @@ body {
 
 .icon-close {
   fill: var(--light-color);
+  border-color: #757575;
+  color: black
   transition: fill 250ms var(--timing-function);
 }
 
