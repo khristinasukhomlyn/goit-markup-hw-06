@@ -839,26 +839,27 @@ body {
   fill: var(--light-color);
 }
 
-.e-mail-field::placeholder {
+.e-mail-field {
   width: 358px;
   height: 50px;
   border: 1px solid;
   border-color: var(--main-color);
   border-radius: 4px;
   background-color: transparent;
-  margin-top: 20px;
+  margin-top: 15px;
   padding-top: 16px;
   padding-left: 16px;
   padding-bottom: 16px;
   color: var(--main-color);
   font-weight: 400;
   font-size: 16px;
-  line-height: 1, 25em;
+  line-height: 1.25em;
   letter-spacing: 0.03em;
 }
-.contact-us-message:hover,
-.contact-us-message:focus,
-.contact-us-message:active {
+
+.e-mail-field:hover,
+.e-mail-field:focus,
+.e-mail-field:active {
   border-color: var(--accent-color);
 }
 
