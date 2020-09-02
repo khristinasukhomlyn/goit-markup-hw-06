@@ -660,17 +660,13 @@ li {
   background-origin: border-box;
 }
 
-.checkbox:checked ~ .label {
-  transform: translateX(20px);
-}
-
 .icon-close {
   position: absolute;
   top: 8px;
   right: 8px;
   transition: fill 250ms var(--timing-function);
 }
-.icon-close-hover:hover .icon-close {
+.icon-close:hover {
   fill: var(--accent-color);
 }
 
