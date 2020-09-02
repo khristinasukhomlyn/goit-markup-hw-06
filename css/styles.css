@@ -461,6 +461,9 @@ body {
   text-transform: uppercase;
   color: var(--semidark-color);
 }
+
+/* Модальное окно и его формы */
+
 .modal {
   position: absolute;
   top: 50%;
@@ -571,12 +574,6 @@ body {
   fill: var(--accent-color);
 }
 
-.contact-us-field:hover,
-.contact-us-field:focus,
-.contact-us-field:active {
-  border-color: var(--accent-color);
-}
-
 .contact-us-message {
   width: 450px;
   height: 125px;
@@ -605,6 +602,11 @@ body {
   letter-spacing: 0.01em;
   color: rgba(117, 117, 117, 0.5);
 }
+.contact-us-field:hover,
+.contact-us-field:focus,
+.contact-us-field:active {
+  border-color: var(--accent-color);
+}
 
 .comment-window {
   width: 450px;
@@ -621,7 +623,10 @@ body {
   line-height: 1, 142;
   letter-spacing: 0.01em;
 }
-li {
+
+/* Чекбокс*/
+
+.li {
   margin-bottom: 10px;
 }
 
@@ -659,6 +664,8 @@ li {
   background-size: contain;
   background-origin: border-box;
 }
+
+/* кнопка "Закрыть" в модальном окне*/
 
 .icon-close {
   position: absolute;
@@ -830,6 +837,29 @@ li {
   width: 24px;
   height: 24px;
   fill: var(--light-color);
+}
+
+.e-mail-field::placeholder {
+  width: 358px;
+  height: 50px;
+  border: 1px solid;
+  border-color: var(--main-color);
+  border-radius: 4px;
+  background-color: transparent;
+  margin-top: 20px;
+  padding-top: 16px;
+  padding-left: 16px;
+  padding-bottom: 16px;
+  color: var(--main-color);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1, 25em;
+  letter-spacing: 0.03em;
+}
+.contact-us-message:hover,
+.contact-us-message:focus,
+.contact-us-message:active {
+  border-color: var(--accent-color);
 }
 
 /* Кнопки */
