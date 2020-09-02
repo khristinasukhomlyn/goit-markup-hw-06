@@ -477,9 +477,9 @@ body {
 
 .modal-icon {
   margin-right: 8px;
-  position: absolute;
+  /*position: absolute;
   top: 40px;
-  left: 10px;
+  left: 10px;*/
   transition: fill 250ms var(--timing-function);
 }
 
@@ -667,22 +667,22 @@ body {
 
 /* кнопка "Закрыть" в модальном окне*/
 
-.icon-close {
+.close-btn {
   position: absolute;
   top: 8px;
   right: 8px;
+}
+
+.icon-close {
+  fill: var(--light-color);
   transition: fill 250ms var(--timing-function);
 }
-.icon-close:hover {
+
+.close-btn:hover .icon-close {
   fill: var(--accent-color);
 }
 
-.icon-close-hover:hover .icon-close {
-  fill: var(--light-color);
-}
-.icon-close-hover:hover {
-  background-color: var(--accent-color);
-}
+/***/
 
 .inline-block {
   display: inline-block;
