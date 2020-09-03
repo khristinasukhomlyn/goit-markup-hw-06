@@ -461,6 +461,9 @@ body {
   text-transform: uppercase;
   color: var(--semidark-color);
 }
+.center {
+  text-align: center;
+}
 
 /* Модальное окно и его формы */
 
