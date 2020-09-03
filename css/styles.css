@@ -476,10 +476,9 @@ body {
 }
 
 .modal-icon {
-  margin-right: 8px;
-  /*position: absolute;
+  position: absolute;
   top: 40px;
-  left: 10px;*/
+  left: 10px;
   transition: fill 250ms var(--timing-function);
 }
 
@@ -558,8 +557,8 @@ body {
   width: 450px;
   height: 40px;
   border: 1px solid;
-  border-radius: 4px;
   border-color: var(--main-color);
+  border-radius: 4px;
   font-weight: 400;
   font-size: 14px;
   line-height: 1.142em;
@@ -572,6 +571,7 @@ body {
 .form-field:focus,
 .form-field:active {
   fill: var(--accent-color);
+  border-color: var(--accent-color);
 }
 
 .contact-us-message {
