@@ -559,7 +559,7 @@ body {
 .contact-us-field {
   width: 450px;
   height: 40px;
-  border: 1px solid;
+  border: 1px solid var(--main-color);
   border-color: var(--main-color);
   border-radius: 4px;
   font-weight: 400;
@@ -568,6 +568,7 @@ body {
   letter-spacing: 0.01em;
   padding-left: 30px;
   transition: border-color 250ms var(--timing-function);
+  outline: none;
 }
 
 .form-field:hover .contact-us-field,
